@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next'
-import { stocksApi } from '@/lib/supabase'
+import { stocksApi } from '../../lib/supabase'
 
 interface StatsResponse {
   data: {
