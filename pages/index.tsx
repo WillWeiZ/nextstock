@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Head from 'next/head'
 import StockTable from '../components/StockTable'
 import StatsCard from '../components/StatsCard'
+import type { Stock } from '../lib/types'
 
 interface StockStats {
   totalCount: number
