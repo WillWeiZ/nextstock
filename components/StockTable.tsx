@@ -1,5 +1,4 @@
 import React from 'react'
-import { Stock } from '../lib/types'
 
 interface StockTableProps {
   stocks: Stock[]

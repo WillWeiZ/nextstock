@@ -1,6 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 import { stocksApi } from '../../lib/supabase'
-import { StocksResponse } from '../../lib/types'
 
 export default async function handler(
   req: NextApiRequest,
